@@ -8,11 +8,9 @@
         <br>
         <h4>Static Method</h4><br>
         No instance variables are required to affect the behaviour of the method.
-
-        Having the
-<Strong> keyword </Strong> 
-          means you can not change the value of the 
-        variable, method or class
+        </p>
+<p>
+        Having the <Strong> FINAL </Strong> keyword means you can not change the value of the variable, method or class
         <br>
         Examples of Math method;
         <li>
