@@ -10,7 +10,7 @@
         No instance variables are required to affect the behaviour of the method.
 
         Having the
-       <Strong> keyword </Strong> 
+<Strong> keyword </Strong> 
           means you can not change the value of the 
         variable, method or class
         <br>
@@ -23,13 +23,13 @@
                 <il>Math.max();</il>
         <li>
 
-        <h4> How to create an array list:</h4>
-        ArrayList<Wrapped Datatype/object?> name = new ArrayList();<br>
+   <h4> How to create an array list:</h4>
+        ArrayList<Strong><emphasis><Wrapped Datatype/object?></emphasis></Strong> name = new ArrayList();<br>
         name.add(value) {to add the value}
         <h3>or</h3> <br>
         name.add(new wrapped datatype(value));
 
-        <Strong> NOTE:</Strong> try as many methods as you can.
+   <Strong> NOTE:</Strong> try as many methods as you can.
     </p>
   </body>
  </html>
