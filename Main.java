@@ -1,5 +1,6 @@
 package org.example;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -10,6 +11,7 @@ public class Main {
 
         String distance;
         double fee = 0.0;
+
 
       //  if ()
 
@@ -42,9 +44,6 @@ public class Main {
 
         }
 
-//        double price  = 0.0;
-//        double quantity  = 0.0;
-//        double miles = 0.0;
         double total;
         //price * quantity + miles;
 
@@ -55,27 +54,24 @@ public class Main {
         System.out.println("===========");
         System.out.println(" Qty");
         System.out.println("----");
-        String quantity = scanner.nextLine();
+        double quantity = scanner.nextDouble();
+        System.out.println("===========");
         System.out.println(" Price");
         System.out.println("----");
 
+        double pricce = scanner.nextDouble();
+        System.out.println("===========");
+        System.out.println(" Price");
+        System.out.println("----");
 
-        String price = scanner.nextLine();
+        double miles = scanner.nextDouble();
+        System.out.println("===========");
         System.out.println(" Miles");
         System.out.println("----");
-        String miles = scanner.nextLine();
-        System.out.println(" Total");
-        System.out.println("----");
+        total = quantity * pricce;
 
-
-
-        System.out.println(price + quantity + fee);
-
-
-       // String product = scanner.nextLine();
-
-
-      //  String product = scanner.nextLine();
-        System.out.println(" ");
+        System.out.println(total + fee);
+       // System.out.println("%-12s%-7s%-10s%-10s%-10s\n", product);
     }
+
 }
